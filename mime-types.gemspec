@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Austin Ziegler"]
-  s.cert_chain = ["/Users/austin/.gem/gem-public_cert.pem"]
   s.date = %q{2009-03-01}
   s.description = %q{MIME::Types for Ruby originally based on and synchronized with MIME::Types for Perl by Mark Overmeer, copyright 2001 - 2009. As of version 1.15, the data format for the MIME::Type list has changed and the synchronization will no longer happen.}
   s.email = ["austin@rubyforge.org"]
@@ -18,7 +17,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{mime-types}
   s.rubygems_version = %q{1.3.1}
-  s.signing_key = %q{/Users/austin/.gem/gem-private_key.pem}
   s.summary = %q{Manages a MIME Content-Type database that will return the Content-Type for a given filename.}
   s.test_files = ["test/test_mime_type.rb", "test/test_mime_types.rb"]
 
