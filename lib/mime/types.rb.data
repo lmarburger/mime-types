@@ -944,8 +944,8 @@ audio/L24 'IANA,RFC3190
 audio/L8 'IANA,RFC4856
 audio/LPC 'IANA,RFC4856
 audio/mobile-xmf 'IANA,RFC4723
-audio/mp4 'IANA,RFC4337
-audio/MP4A-LATM @m4a 'IANA,RFC3016
+audio/mp4 @m4a 'IANA,RFC4337
+audio/MP4A-LATM 'IANA,RFC3016
 audio/MPA 'IANA,RFC3555
 audio/mpa-robust 'IANA,RFC5219
 audio/mpeg @mpga,mp2,mp3 :base64 'IANA,RFC3003
@@ -1214,7 +1214,7 @@ video/MJ2 @mj2,mjp2 'IANA,RFC3745
 video/MP1S 'IANA,RFC3555
 video/MP2P 'IANA,RFC3555
 video/MP2T 'IANA,RFC3555
-video/mp4 'IANA,RFC4337
+video/mp4 @mp4,m4v 'IANA,RFC4337
 video/MP4V-ES 'IANA,RFC3016
 video/mpeg @mp2,mpe,mp3g,mpg :base64 'IANA,RFC2045,RFC2046
 video/mpeg4-generic 'IANA,RFC3640
@@ -1244,7 +1244,7 @@ video/vnd.motorola.videop 'IANA,[McGinty]
 video/vnd.mpegurl @mxu,m4u :8bit 'IANA,[Recktenwald]
 video/vnd.ms-playready.media.pyv 'IANA,[DiAcetis]
 video/vnd.nokia.interleaved-multimedia @nim 'IANA,[Kangaslampi]
-video/vnd.objectvideo @mp4,m4v 'IANA,[Clark]
+video/vnd.objectvideo 'IANA,[Clark]
 video/vnd.sealed.mpeg1 @s11 'IANA,[Petersen]
 video/vnd.sealed.mpeg4 @smpg,s14 'IANA,[Petersen]
 video/vnd.sealed.swf @sswf,ssw 'IANA,[Petersen]
